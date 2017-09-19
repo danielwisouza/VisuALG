@@ -1,0 +1,17 @@
+algoritmo "taxa_imp"
+
+var
+   muanda, taxa, total:real
+   
+inicio
+   escreval("Digite valor total das compras")
+   leia(muanda)
+   
+   taxa <- (muanda*0.6)
+   
+   total <- (muanda + taxa)
+   
+   escreval("Taxa sobre as compras R$ ",taxa:1:2)
+   escreval("Total a pagar R$ ",total:1:2)
+
+fimalgoritmo
