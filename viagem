@@ -1,0 +1,17 @@
+algoritmo "viagem"
+
+var
+   reais, dolares, conversao, c, q: real
+inicio
+      c <- 1
+      eSCREVAL("Quantas vezes quer converter")
+      leia (q)
+      enquanto (c <= q) faca
+               escreval("Digite quantidade de reais")
+               leia(reais)
+               dolares <- 2.20
+               conversao <- reais / dolares
+               escreval("O valor convertido é US$ ",conversao:1:2)
+               c <- c + 1
+      Fimenquanto
+fimalgoritmo
