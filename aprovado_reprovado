@@ -1,0 +1,50 @@
+algoritmo "aprovado_reprovado"
+
+var
+ nota1, nota2:Inteiro
+ media: real
+inicio
+
+//Entrada
+  escreval("Primeira Nota: ")
+  leia(nota1)
+  escreval("Segunda Nota: ")
+  leia(nota2)
+
+//Processamento
+escreval("---------STATUS----------")
+
+media <- (nota1 + nota2)/ 2
+      se (media >= 9) ENTAO
+         escreval(" Média: ",media:1:1) ENTAO
+         escreval(" APROVEITAMENTO A ")
+      senao
+           se (media  >= 8.9) ou (media <= 8) ENTAO
+              escreval(" Média: ",media:1:1)
+              escreval(" APROVEITAMENTO B ")
+           senao
+                se (media  >= 7.9) ou (media <= 7) ENTAO
+                   escreval(" Média: ",media:1:1)
+                   escreval(" APROVEITAMENTO C ")
+                senao
+                     se (media  >= 6.9) ou (media <= 6) ENTAO
+                        escreval(" Média: ",media:1:1)
+                        escreval(" APROVEITAMENTO D ")
+                     senao
+                          se (media  >= 5.9) ou (media <= 5) ENTAO
+                             escreval(" Média: ",media:1:1)
+                             escreval(" APROVEITAMENTO E")
+                          senao
+                               se (media < 5) ENTAO
+                               escreval(" Média: ",media:1:1)
+                               escreval (" APROVEITAMENTO F")
+                          fimse
+                     fimse
+                fimse
+           fimse
+      fimse
+fimse
+
+escreval("-------------------------")
+
+fimalgoritmo
