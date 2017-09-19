@@ -1,0 +1,12 @@
+algoritmo "par_impar"
+var
+num:real
+inicio
+      escreval("Digite um numero qualquer :")
+      leia(num)
+               se num%2 = 0 ENTAO
+                  escreval ("Seu numero: ",num," é par.")
+               senao num%2 <> 0
+                  escreval ("Seu numero: ",num," é ímpar.")
+               fimse
+fimalgoritmo
