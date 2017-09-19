@@ -1,0 +1,15 @@
+algoritmo "temperatura"
+
+var
+   celsius:real
+   fahrenheit:real
+   
+inicio
+    escreval("Digite temperatura em Fº")
+    leia(fahrenheit)
+    celsius <- (fahrenheit - 32 )/1.8
+    
+    escreval("A temperatura em Cº é ",celsius:1:2,"Cº.")
+
+
+fimalgoritmo
