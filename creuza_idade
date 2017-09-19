@@ -1,0 +1,21 @@
+algoritmo "creuza_idade"
+
+var
+   ano,nasc:Inteiro
+   idade:Real
+inicio
+      escreval("Digite ano atual")
+      leia(ano)
+      escreval("Digite o ano de seu aniversário")
+      leia(nasc)
+      
+      //Processamento
+      idade <- (ano - nasc)
+      escreva("Cleuza você tem ",idade," anos de idade")
+      se idade > 21 ENTAO
+         escreva (" e já atingiu  maioiridade")
+      senao
+          escreva (" e não atingiu a maioridade")
+      fimse
+     
+fimalgoritmo
