@@ -1,0 +1,17 @@
+algoritmo "conteAte1o"
+
+var
+   valor: Inteiro
+   contador, salto: Inteiro
+inicio
+      contador <- 0
+      Escreva("Quer contar até quantos? ")
+      leia(valor)
+      escreva("Qual será o valor do salto? ")
+      leia(salto)
+      Enquanto (contador <= valor) faca
+               escreval(contador)
+               contador <- contador + salto
+      Fimenquanto
+      escreva("Terminei")
+fimalgoritmo
