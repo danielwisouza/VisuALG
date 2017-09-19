@@ -1,0 +1,28 @@
+algoritmo "contagem_inteligente"
+
+var
+  inicia, final, cont: inteiro
+inicio
+      escreval("Início: ")
+      leia(inicia)
+      escreval("Fim. ")
+      leia(final)
+
+
+      se inicia < final ENTAO
+         cont <- inicia
+              Enquanto (cont <= final) faca
+                       escreva(cont,"....")
+                       cont <- cont + 1
+              Fimenquanto
+      senao
+           se inicia > final ENTAO
+              cont <- final
+              Enquanto (cont >= inicia) faca
+                       escreva(cont,"....")
+                       cont <- cont - 1
+              fimenquanto
+           fimse
+      fimse
+
+fimalgoritmo
