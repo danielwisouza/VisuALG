@@ -1,0 +1,19 @@
+algoritmo "FazSomaProcedimento"
+
+var
+   X, Y: Inteiro
+procedimento Soma (A, B: Inteiro)
+
+INICIO
+             escreval("Recebi o valor A")
+             escreval("Recebi o valor B")
+             escreval("A soma entre os dois é ",A + B)
+fimprocedimento
+
+inicio
+   X<- 5
+   Y<- 3
+   Soma(X, Y)
+
+
+fimalgoritmo
