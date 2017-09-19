@@ -1,0 +1,31 @@
+algoritmo "apto_dirigir"
+
+var
+atual, ano_nasc: inteiro
+idade: real
+
+inicio
+escreval("----------------------------")
+escreval(" DEPARTTAMENTO DE TRANNSITO ")
+escreval("----------------------------")
+
+//Entrada
+escreval("Ano Atual (xxxx):")
+leia(atual)
+escreval("Ano de Nascimento (xxxx):")
+leia(ano_nasc)
+//Processamneto
+idade <- (atual - ano_nasc)
+escreval("----------STATUS------------")
+      se (idade < 18) ENTAO
+         escreval(" IDADE: ",idade)
+         escreval(" NÃO APTO A TIRAR CARTA DE MOTORISTA")
+      fimse
+      se (idade >= 18) ENTAO
+         escreval(" IDADE: ",idade)
+         escreval(" APTO A TIRAR CARTA DE MOTORISTA")
+      fimse
+escreval("----------------------------")
+//Saída
+
+fimalgoritmo
