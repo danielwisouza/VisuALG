@@ -1,0 +1,21 @@
+algoritmo "imprestimo"
+
+var
+   valor, total, total2:real
+   parcelas:Inteiro
+
+   
+inicio
+      escreval("Digite Valor do emprestimo")
+      leia(valor)
+      escreval("Digite quantas parcelas deseja parcelar")
+      leia(parcelas)
+      
+      total <- (valor * 0.2) + valor)
+      total2 <- (total)/parcelas
+      
+
+      escreval("O valor total a pagar será de R$ ",total:1:2,".")
+      escreval("O valor em ",parcelas," parcelas será de R$ ",total2:1:2," cada percela.")
+      
+fimalgoritmo
