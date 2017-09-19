@@ -1,0 +1,24 @@
+algoritmo "somadorNumerico"
+
+var
+   cont, n, s, maior, menor: Inteiro
+inicio
+      cont <- 1
+      s <- 0
+      Enquanto (cont <= 5) faca
+               escreva ("Digite o ", cont, "º. Valor : ")
+               leia (n)
+               Se (n > maior) entao
+                  maior <- n
+               fimse
+               se (n < menor) entao
+                    menor <- n
+               fimse
+               s <- s + n
+               cont <- cont +1
+      Fimenquanto
+      Escreval("A soma de todos os valores foi",s)
+      EScreval("O maior valor digitado foi ",maior)
+      EScreval("O menor valor digitado foi ",menor)
+      
+fimalgoritmo
