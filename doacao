@@ -1,0 +1,37 @@
+algoritmo "doacao"
+
+var
+d, valor:inteiro
+
+inicio
+      escreval("----------------------------------")
+      escreval("         CRIANÇA ESPERANÇA        ")
+      escreval("----------------------------------")
+      escreval("  MUITO OBRIGADO PELA DOAÇÃO :-)  ")
+      escreval("  [1]  PARA DOAR R$ 10,00 ")
+      escreval("  [2]  PARA DOAR R$ 25,00 ")
+      escreval("  [3]  PARA DOAR R$ 100,00 ")
+      escreval("  [4]  PARA DOAR OUTROS VALORES")
+      escreval("  [5]  PARA CANCELAR ADOAÇÃO  ")
+      escreval("----------------------------------")
+      leia(d)
+
+      escolha(d)
+                Caso 1
+                     valor <- 10
+                Caso 2
+                     valor <- 25
+                Caso 3
+                     valor <- 100
+                Caso 4
+                     escreval ("Digite valor da DOAÇÃO EM REAIS: ")
+                     leia(valor)
+                Caso 5
+                     valor <- 0
+      fimescolha
+      escreval("----------------------------------")
+      escreval("SUA DOAÇÃO FOI DE R$ ",valor:1:2)
+      escreval("MUITO OBRIGADO!!")
+      escreval("----------------------------------")
+
+fimalgoritmo
